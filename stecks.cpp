@@ -19,7 +19,7 @@ class stack
 
     public:
     stack(){
-        top = NULL;
+        top = NULL; //initialize the stack with a null top pointer
     }
 
     int push(int value)
