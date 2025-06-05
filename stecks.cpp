@@ -31,7 +31,18 @@ class stack
         return value;
     }
 
-    bool listempty(){
+    bool isEmpty(){
         return top == NULL;
     }
+
+    void pop(){
+        if (isEmpty())
+        {
+            cout << "stack is empty" << endl;
+            return;
+        }
+        cout << "popped value" << top->data << endl;
+        top = top->next;
+    }
+    
 };
