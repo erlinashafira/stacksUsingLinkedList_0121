@@ -94,6 +94,9 @@ class stack
             case 4:
                 cout << "exiting progaram "<< endl;
                 break;
+            default:
+                cout << "invalid choice, try again" << endl;
+                break;
             }
         }
     };
