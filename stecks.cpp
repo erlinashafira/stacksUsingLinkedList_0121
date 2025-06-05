@@ -49,7 +49,7 @@ class stack
         if(isEmpty())
         {
             cout << "List is empty" << endl;
-            return;
+            return; // if the stack is empty, print a message and return
         }
         else
         {
