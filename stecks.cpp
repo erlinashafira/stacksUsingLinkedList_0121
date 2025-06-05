@@ -91,7 +91,9 @@ class stack
             case 3:
                 stack.peek();
                 break;
-            
+            case 4:
+                cout << "exiting progaram "<< endl;
+                break;
             }
         }
     };
