@@ -45,4 +45,21 @@ class stack
         top = top->next;
     }
     
+    void peek(){
+        if(isEmpty())
+        {
+            cout << "List is empty" << endl;
+            return;
+        }
+        else
+        {
+            Node *current = top;
+            while (current != NULL)
+            {
+                cout << current->data << " " <<endl;
+                current = current->next;
+            }
+            cout << endl;
+        }
+    }
 };
