@@ -32,7 +32,7 @@ class stack
     }
 
     bool isEmpty(){
-        return top == NULL;
+        return top == NULL; // return true if the top pointer is null, indicating an empty stack
     }
 
     void pop(){
