@@ -24,10 +24,14 @@ class stack
 
     int push(int value)
     {
-        Node *newNode = new Node();
-        newNode->data = value;
-        newNode->next = top;
-        top = newNode;
+        Node *newNode = new Node(); //1. declare memory for the new node
+        newNode->data = value; //2. arsip value
+        newNode->next = top; //3. set the next pointer of the new node to the current
+        top = newNode; //4. update pointer to the new node
         return value;
+    }
+
+    bool listempty(){
+        return top == NULL;
     }
 };
