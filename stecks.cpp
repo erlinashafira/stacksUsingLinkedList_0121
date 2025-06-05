@@ -80,11 +80,15 @@ class stack
 
             switch (choice)
             {
-                case 1:
+            case 1:
                 cout << "Enter the value to push: ";
                 cin >> value;
                 stack.push(value);
                 break;
+            case 2:
+                stack.pop();
+                break;
+            
             }
         }
     };
